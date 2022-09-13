@@ -1,0 +1,74 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background : url("herbs.jpg.jpeg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  .innerBox {
+    min-width: 480px;
+    height: fit-content;
+    width: fit-content;
+    background-color: linear gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)) ;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 7px 7px 60px #000;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer .error {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #faf6f5;
+    text-align: center;
+  }
+  
+  .footer button {
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100%;
+    transition: 100ms;
+    cursor: pointer;
+  }
+  
+  .footer button:disabled {
+    background-color: gray !important;
+  }
+  
+  .footer button:hover {
+    background-color: linear-gradient(to right,#00ff55, #80ffdd);;
+  }
+  
+  .footer p {
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .footer p span a {
+    font-weight: bold;
+    color: #208706;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+  }
